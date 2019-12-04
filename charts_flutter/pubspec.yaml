@@ -15,7 +15,11 @@ dependencies:
   # The latest pub version is commented out and shown below as an example.
   # charts_common: 0.8.1
   charts_common:
-    path: ../charts_common/
+      git: 
+        url: https://github.com/BorisLok/charts
+        path: charts_common
+        # ref: b5cb926d1fa0cd3f353bbf821e16617b0456caa5
+        # path: ../charts_common
   collection: ^1.14.5
   flutter:
     sdk: flutter

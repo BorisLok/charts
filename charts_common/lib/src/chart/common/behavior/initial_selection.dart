@@ -44,10 +44,10 @@ class InitialSelection<D> implements ChartBehavior<D> {
   }
 
   void _setInitialSelection(List<MutableSeries<D>> seriesList) {
-    if (!_firstDraw) {
-      return;
-    }
-    _firstDraw = false;
+//    if (!_firstDraw) {
+//      return;
+//    }
+//    _firstDraw = false;
 
     final immutableModel = new SelectionModel<D>.fromConfig(
         selectedDataConfig, selectedSeriesConfig, seriesList);
